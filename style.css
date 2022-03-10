@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* keep the same width */
+  box-sizing: border-box;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+nav {
+  background-color: #b8a6be;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 0.5rem 0.75rem;
+
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(106, 79, 138);
+  color: black;
+}
+
+main {
+  display: flex;
+}
+section.left {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.right {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.right h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+section.right p {
+  padding: 0.5rem;
+}
+.active {
+  background-color: rgb(230, 156, 231);
+  color: black;
+}
+
+iframe {
+  padding: 1rem;
+}
+
+div.tradingview-widget-container {
+}
